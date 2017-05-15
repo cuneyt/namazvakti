@@ -197,7 +197,7 @@ public class NamazVaktii {
 						if(Desktop.isDesktopSupported())
 						{
 						  try {
-							Desktop.getDesktop().browse(new URI("http://www.example.com"));
+							Desktop.getDesktop().browse(new URI("https://github.com/mcuneyda/namazvakti"));
 						} catch (IOException | URISyntaxException e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
@@ -217,9 +217,7 @@ public class NamazVaktii {
 		lblNewLabel_1.setBounds(75, 154, 83, 14);
 		frame.getContentPane().add(lblNewLabel_1);
 		
-		JLabel kalanvakit = new JLabel("New label");
-		kalanvakit.setBounds(70, 180, 46, 14);
-		frame.getContentPane().add(kalanvakit);
+	
 		
 		
 		
