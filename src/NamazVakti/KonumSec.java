@@ -98,7 +98,7 @@ public class KonumSec extends JFrame {
 		txtpnIliniziSein.setBounds(81, 149, 86, 20);
 		contentPane.add(txtpnIliniziSein);
 		
-		Map<String, String> sehirlerim = SehirCek("turkiye");
+		Map<String, String> sehirlerim = SehirCek("turkiyesse");
 		
 		
 		
